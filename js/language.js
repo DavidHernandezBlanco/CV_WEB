@@ -4,3 +4,5 @@ function language() {
         window.location.href = '../index.html'
     } else {
         window.location.href = './en/index.html'
+    }
+}
