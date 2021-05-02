@@ -9,78 +9,162 @@
     <link href="https://fonts.googleapis.com/css2?family=Voces&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estils.css">
-    <script src="./js/code.js"></script>
+    <script src="./js/language.js"></script>
     <link href="./img/fontawesome/css/all.css" rel="stylesheet">
-    <link rel="icon" href="./img/angellist-brands.svg">
+    <link rel="icon" href="./img/cuttlefish-brands.svg">
     <title>Curriculum web</title>
 </head>
 
 <body>
+    <style>
+         ::-webkit-scrollbar {
+            width: 20px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background-color: rgb(128, 192, 245);
+            border-radius: 10px;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #2ebdd6;
+        }
+    </style>
     <div id="header" class="row">
         <h1>DAVID HERNÁNDEZ BLANCO</h1>
-        <p>DISEÑADOR DE PÁGINAS WEB INTERACTIVAS</p>
+        <h3>CURRICULUM WEB</h3>
+        <div style="text-align:center">
+            <h3>TÉCNICO INFORMÁTICO</h3>
+            <h3>_________________________________</h3>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
         <i class="fas fa-address-card"></i>
     </div>
     <ul class="row">
         <li><a href="#header"><i class="fas fa-arrow-up"></i></a></li>
-        <li><a href="#section-1">Quen soy?</a></li>
+        <li><a href="#section-7">Habilidades</a></li>
+        <li><a href="#section-5">Actividades no laborales</a></li>
+        <li><a href="#section-4">Idiomas</a></li>
+        <li><a href="#section-3">Competéncias profesionales</a></li>
         <li><a href="#section-2">Estudios</a></li>
-        <li><a href="#section-3">Experiencia</a></li>
-        <li><a href="#section-4">Contacto</a></li>
+        <li><a href="#section-1">Quien soy?</a></li>
     </ul>
     <div class="row" id="section-1">
-        <div class="column-00">
+        <div class="column-2">
             <h2>Quien soy?</h2>
-            <p>Datos personales: </p>
-            <p>Soy un joven profesional que busca una oportunidad para trabajar y mejorar uno mismo, además de participar en una organización competitiva.</p>
+            <p><strong>Datos personales: </strong></p>
+            <p><strong>Nombre:</strong> David Hernández Blanco</p>
+            <p><strong>Fecha de nacimiento:</strong> 03 Ene 2003</p>
+            <p><strong>Dirección:</strong> Carrer de Portugal nº 33 08907</p>
+            <p><strong>Nacionalidad:</strong> Español</p>
+            <p><strong>Teléfono:</strong> (+34) 618 97 20 86</p>
+            <p><strong>Email:</strong> davidhb2003@gmail.com</p>
+            <p><strong>Descripción:</strong> Soy un joven profesional que busca una oportunidad para trabajar y mejorar uno mismo, además de participar en una organización competitiva.</p>
         </div>
-        <div class="column-00">
-            <p><strong>Nombre:</strong>"David Hernández"</p>
-            <p></p><strong>Fecha de nacimiento:</strong>"03 Ene 2003"</p>
-            <p></p><strong>Dirección:</strong>"33 C/Portugal, ESP"</p>
-            <p></p><strong>Nacionalidad:</strong>"Español"</p>
-            <p></p><strong>Teléfono:</strong>"(+34) 618 97 20 86"</p>
-            <p></p><strong>Email:</strong>"davidhb2003@gmail.com"</p>
+        <div class="column-2">
+            <img src="./img/IMG_20200813_181250_970.jpg" alt="">
+            <div class="container">
+                <h4><b>David Hernández</b></h4>
+                <p>Técnico Informático</p>
+            </div>
         </div>
         <div class="column-0">
             <iframe width="100%" height="500px" src="https://www.youtube.com/embed/MzEBxbFYEys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
     </div>
     <div class="row padding flex" id="section-2">
-        <div class="column-1">
-            <h2>Estudios</h2>
-            <p></p>
-        </div>
-        <div class="column-2">
-            <img src="./img/EstiloenLinea.PNG" alt="EstiloenLinea">
+        <div class="column-3">
+            <h2>Estudios <i class="fas fa-user-graduate"></i></h2>
+            <p>- Educación primaria: Centro de Estudios Joan XXIII Jesuitas Bellvitge</p>
+            <p>- Educación secundaria: Centro de Estudios Joan XXIII Jesuitas Bellvitge</p>
+            <p>- Sistemas Microinformáticos y Redes: Centro de Estudios Joan XXIII Jesuitas Bellvitge</p>
         </div>
     </div>
-
     <div class="row padding flex" id="section-3">
-        <div class="column-2">
-            <img src="./img/EstiloInterno.PNG" alt="EstioloInterno">
-        </div>
-        <div class="column-2">
-            <h2>Experiencia</h2>
-            <p></p>
+        <div class="column-3">
+            <h2>Competéncias personales <i class="fas fa-network-wired"></i></h2>
+            <p>- Reparación de equipos informáticos.</p>
+            <p>- Intsalación y gerstión de sistemas operativos: Windows, Linux.</p>
+            <p>- Uso de aplicaciones ofimáticas: Paquete Office.</p>
+            <p>- Instalación y gestión de redes informáticas.</p>
         </div>
     </div>
     <div class="row padding flex" id="section-4">
-        <div class="column-1">
-            <h2>Contacto</h2>
-            <p></p>
-        </div>
-        <div class="column-2">
-            <img src="./img/EstiloExterno.PNG" alt="EstiloExterno">
+        <div class="column-3">
+            <h2>Idiomas <i class="fas fa-language"></i></h2>
+            <p>- Castellano Nativo.</p>
+            <p>- Catalán Nativo.</p>
+            <p>- Inglés Intermedio.</p>
         </div>
     </div>
-    <div class="row" id="section-5">
+    <div class="row padding flex" id="section-5">
+        <div class="column-3">
+            <h2>Actividades no laborales <i class="fas fa-hands-helping"></i></h2>
+            <p>- Voluntariado: En Centro Educativo Esclat Bellvitge, ayudando a niños pequeños de 7-8 años, a gestionar y manejar ordenadores con actividades interactivas.</p>
+            <p>- Ex jugador de fútbol federado desde los 5 años, jugando en C.E.Hospitalet, F.C Can Buxeres, etc.</p>
+        </div>
+    </div>
+    <div class="row padding-sk" id="section-7">
+        <h2>Habilidades</h2>
+
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">90% </div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">80% </div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">65% </div>
+        </div>
+
+        <p>PHP</p>
+        <div class="container">
+            <div class="skills php">60% </div>
+        </div>
+    </div>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="row" id="section-6">
         <div class="column-1">
-            <p>Idioma:</p>
+            <h3>Idioma: <i class="fas fa-language"></i></h3>
             <select name="language" id="language" onchange="language()">
                 <option value="ES" selected>Español</option>
                 <option value="EN">English</option>
             </select>
+        </div>
+        <div class="column-3">
+            <h3>Modo Oscuro/Claro</h3>
+            <p>Selecciona el botón para cambiar la página a modo oscuro o claro:</p>
+            <button onclick="myFunction()">Modo oscuro</button>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
         </div>
     </div>
 </body>
