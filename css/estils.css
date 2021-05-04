@@ -104,6 +104,13 @@ li a:hover {
     padding-bottom: 3vh;
 }
 
+.column-4 {
+    width: 50%;
+    float: right;
+    padding-right: 20vh;
+    background-color: rgb(128, 192, 245);
+}
+
 #section-6 {
     background-color: rgb(128, 192, 245);
     padding-bottom: 9vh;
@@ -154,7 +161,8 @@ i {
 
 .container {
     width: 100%;
-    background-color: #ddd;
+    background-color: rgb(203, 224, 233);
+    box-shadow: 5px 5px 5px 5px grey;
 }
 
 .card {
@@ -168,7 +176,7 @@ i {
 }
 
 .container {
-    padding: 2px 16px;
+    padding: 2px 4px;
 }
 
 .skills {
@@ -189,12 +197,12 @@ i {
 }
 
 .js {
-    width: 65%;
+    width: 100%;
     background-color: #f44336;
 }
 
 .php {
-    width: 60%;
+    width: 70%;
     background-color: #808080;
 }
 
@@ -206,7 +214,7 @@ i {
         text-align: center;
     }
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .flex {
         display: flex;
@@ -225,11 +233,11 @@ i {
         padding-bottom: 0vh;
     }
     .column-1 {
-        width: 100%;
+        width: 50%;
         float: left;
         padding-left: 3vh;
         padding-right: 3vh;
-        background-color: rgb(243, 241, 241);
+        background-color: rgb(128, 192, 245);
     }
     .column-2 {
         width: 100%;
@@ -254,23 +262,31 @@ i {
     p {
         font-size: 15px;
     }
-    li a {
-        display: block;
-        color: rgb(109, 109, 109);
-        text-align: center;
-        padding: 4px 6px;
-        text-decoration: none;
-        font-size: 12px;
-    }
     ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(112, 189, 224);
         position: sticky;
         top: 0;
         width: 100%;
+    }
+    ul {
+        box-shadow: 10px 5px 5px grey;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 4px 6px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(110, 164, 226);
     }
     #section-6 {
         background-color: rgb(243, 241, 241);
@@ -300,5 +316,21 @@ i {
     }
     .padding {
         padding-bottom: 8vh;
+    }
+    .container {
+        padding: 2px 4px;
+    }
+    .padding-sk {
+        padding-left: 3vh;
+        padding-right: 3vh;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+    }
+    #section-6 {
+        background-color: rgb(128, 192, 245);
+        padding-bottom: 9vh;
+    }
+    #section-6 h3 {
+        font-size: 15px;
     }
 }
