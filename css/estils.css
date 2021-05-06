@@ -362,8 +362,8 @@ iframe {
     iframe {
         padding-left: 3vh;
         padding-right: 3vh;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
     }
     #section-1 {
         flex-direction: column;
@@ -412,7 +412,7 @@ iframe {
         padding-right: 5vh;
     }
     #section-6 h3 {
-        font-size: 20px;
+        font-size: 21px;
     }
     #section-9 iframe {
         height: 400px;
