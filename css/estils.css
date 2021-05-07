@@ -129,6 +129,10 @@ li a:hover {
     padding-bottom: 9vh;
 }
 
+#dot {
+    padding-top: 2vh;
+}
+
 h3 {
     font-size: 30px;
     color: darkcyan;
