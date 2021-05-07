@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Voces&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estils.css">
-    <script src="./js/language.js"></script>
-    <link href="./img/fontawesome/css/all.css" rel="stylesheet">
-    <link rel="icon" href="./img/cuttlefish-brands.svg">
+    <link rel="stylesheet" href="../css/estils.css">
+    <script src="../js/language.js"></script>
+    <link href="../img/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="icon" href="../img/cuttlefish-brands.svg">
     <title>Web Curriculum</title>
 </head>
 
@@ -100,7 +100,7 @@
             </p>
         </div>
         <div class="column-2">
-            <img src="./img/IMG_20200813_165843.jpg" alt="">
+            <img src="../img/IMG_20200813_165843.jpg" alt="">
             <div class="container">
                 <h4><b>David Hernández</b></h4>
                 <p>IT TECHNICIAN</p>
@@ -110,7 +110,9 @@
             <div class="column-3" id="section-10">
                 <h2>Presentation video: <i class="fas fa-video"></i></h2>
             </div>
-            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/MzEBxbFYEys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/aX6q-m_xZ8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <div style="text-align:center">
             <span class="dot"></span>
@@ -201,13 +203,13 @@
         <div class="column-1">
             <h3>Language: <i class="fas fa-globe-americas"></i></h3>
             <select name="language" id="language" onchange="language()">
-                <option value="ES" selected>Español</option>
+                <option value="ES" selected>Spanish</option>
                 <option value="EN">English</option>
             </select>
         </div>
         <div class="column-4">
             <h3>Dark/Light Mode: <i class="fas fa-moon"></i></h3>
-            <button onclick="myFunction()">Modo oscuro</button>
+            <button onclick="myFunction()">Dark mode</button>
             <script>
                 function myFunction() {
                     var element = document.body;
