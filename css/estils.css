@@ -319,10 +319,10 @@ iframe {
     h2 {
         font-size: 30px;
     }
-    .h3 {
+    h3 {
         font-size: 50px;
     }
-    .h3 {
+    h3 {
         font-size: 30px;
     }
     p {
@@ -338,6 +338,14 @@ iframe {
         padding: 2px 4px;
     }
     iframe {
+        width: 100%;
+        height: 100%;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
+    }
+    #iframe1 {
         width: 100%;
         height: 100%;
         padding-top: 3vh;
