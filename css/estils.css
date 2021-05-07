@@ -33,6 +33,32 @@ body {
     padding-left: 2vh;
 }
 
+#section-6 {
+    background-color: rgb(128, 192, 245);
+    padding-bottom: 9vh;
+}
+
+#dot {
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+}
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: rgb(128, 192, 245);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #2ebdd6;
+}
+
 .dot {
     height: 25px;
     width: 25px;
@@ -93,23 +119,13 @@ body {
     padding-bottom: 3vh;
 }
 
-#section-6 {
-    background-color: rgb(128, 192, 245);
-    padding-bottom: 9vh;
-}
-
-#dot {
-    padding-top: 10vh;
-    padding-bottom: 2vh;
-}
-
-h3 {
-    font-size: 30px;
-    color: darkcyan;
-}
-
 .iframe {
     width: 100%;
+}
+
+iframe {
+    width: 1230px;
+    height: 500px;
 }
 
 img {
@@ -119,6 +135,11 @@ img {
     width: 100%;
     box-shadow: 5px 5px 5px 5px grey;
     border-radius: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: darkcyan;
 }
 
 h2 {
@@ -155,20 +176,8 @@ i {
     width: 100%;
     background-color: rgb(203, 224, 233);
     box-shadow: 5px 5px 5px 5px grey;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
     padding: 2px 4px;
     border-radius: 10px;
-}
-
-iframe {
-    width: 1230px;
-    height: 500px;
 }
 
 .skills {
@@ -238,23 +247,6 @@ iframe {
 }
 
 @media screen and (max-width: 750px) {
-    .navbar a:not(:first-child) {
-        display: none;
-    }
-    .navbar a.icon {
-        float: right;
-        display: block;
-    }
-    .navbar.responsive .icon {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-    }
-    .navbar.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
     #header {
         background-size: cover;
         background-attachment: fixed;
@@ -369,5 +361,22 @@ iframe {
         padding-right: 5vh;
         padding-top: 0vh;
         padding-bottom: 0vh;
+    }
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
     }
 }
