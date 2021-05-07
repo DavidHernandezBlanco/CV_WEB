@@ -130,7 +130,8 @@ li a:hover {
 }
 
 #dot {
-    padding-top: 2vh;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
 }
 
 h3 {
